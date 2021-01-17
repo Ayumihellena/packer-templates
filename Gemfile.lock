@@ -129,7 +129,7 @@ GEM
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
     method_source (0.8.2)
-    mini_portile2 (2.2.0)
+    mini_portile2 (2.5.0)
     minitar (0.5.4)
     mixlib-archive (0.4.1)
       mixlib-log
@@ -161,8 +161,9 @@ GEM
       net-ssh (>= 2.6.5)
       net-ssh-gateway (>= 1.2.0)
     net-telnet (0.1.1)
-    nokogiri (1.8.0)
-      mini_portile2 (~> 2.2.0)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nori (2.6.0)
     ohai (8.24.0)
       chef-config (>= 12.5.0.alpha.1, < 14)
@@ -188,6 +189,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    racc (1.5.2)
     rack (2.0.3)
     rainbow (2.2.2)
       rake
